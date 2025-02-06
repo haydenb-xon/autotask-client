@@ -9,6 +9,7 @@ use Spatie\DataTransferObject\DataTransferObject;
 /**
  * Represents Contact entities.
  */
+#[\AllowDynamicProperties]
 class ContactEntity extends DataTransferObject
 {
     public ?string $additionalAddressInformation;
